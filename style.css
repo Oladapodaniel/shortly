@@ -13,7 +13,7 @@ nav ul li:nth-child(4), nav ul li:nth-child(5) {
     /* font-size: 18px; */
 }
 
-.bold-header {
+ .bold-header { 
     font-weight: 700;
     
 }
@@ -33,10 +33,10 @@ nav ul li:nth-child(4), nav ul li:nth-child(5) {
     position: relative;
     top: -50px;
     left: 0;
-    /* width: 90.3%; */
+     /* width: 90.3%;  */
     border-radius: 5px;
     height: 90px;
- 
+
 }
 
 svg[width="1000"] {
@@ -61,21 +61,21 @@ svg[width="1000"] {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #button{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     #button{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 }
-/* 
+
 @media (max-width: 767px) {
     #button{
     margin-left: 0px;;
     }
-} */
+} 
     
 .cyan {
     background-color: hsl(180, 66%, 49%);
@@ -125,24 +125,36 @@ svg[width="1000"] {
     background-color:hsl(260, 8%, 14%);
     padding: 50px 0;
     font-size: 14px;
-}
+ }
+/*
+@media(min-width: 768px)  {
+    #boost {
+        position: absolute;
+        top: 115em
+    }
+} */
 
-#boost {
 
-    text-align: center;
+    /* text-align: center;
     position: relative;
-    top: 130px;
-    left: 10px;
-    
+    top: 90px;
+    left: 250px;
+    color: red;
+     border: 2px solid red; */
+ 
 
-}
 
+/* 
 #boost1 {
-    color: white;
-    position: relative;
-    top: 140px;
-    left: 45%;
-} 
+    color: red;
+    /* position: relative;
+    top: 137px; */
+    margin-left: 550px;
+    /* left: 43px; */
+    /* border: 2px solid red; */
+    /* text-align: center;
+    display: inline-block; */
+}   */
 
 div span {
     padding: 6px;
@@ -175,7 +187,7 @@ div span {
     
     float: left;
 }
-}
+}*/
 
 
 
