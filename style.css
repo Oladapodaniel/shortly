@@ -1,11 +1,4 @@
-/* 
-nav ul li:nth-child(4), nav ul li:nth-child(5) {
 
-    margin-left: 20px;
-    position: relative;
-    top: 0;
-    left: 35em;
-} */
  
  *{
     box-sizing: border-box;
@@ -14,9 +7,10 @@ nav ul li:nth-child(4), nav ul li:nth-child(5) {
 }
 
  .bold-header { 
-    font-weight: 700;
-    
+    font-weight: 700;    
 }
+
+
 .bold-font {
     font-size: 3em;
 }
@@ -33,7 +27,6 @@ nav ul li:nth-child(4), nav ul li:nth-child(5) {
     position: relative;
     top: -50px;
     left: 0;
-     /* width: 90.3%;  */
     border-radius: 5px;
     height: 90px;
 
@@ -57,29 +50,125 @@ svg[width="1000"] {
     #button{
     margin-left: 20px;
 }
+      #card-margin2 {
+    margin-top: 40px;
+}
+    #card-margin3 {
+        margin-top: 80px;
+        margin-bottom: 30px
+    }
+    #boost {
+        position: relative;
+        top: 150px;
+        text-align: center;
+        color: white;
+    }
+    #working {
+        margin-left: 41%;
+        margin-top: -230px;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #button{
-    margin-left: 10px;
+        margin-left: 10px;
 }
+    #card-margin2 {
+        margin-top: 40px;
+}
+    #card-margin3 {
+        margin-top: 80px;
+        margin-bottom: 30px
+    }
+    #boost {
+        position: relative;
+        top: 150px;
+        text-align: center;
+        color: white;
+    }
+     #working {
+        margin-left: 41%;
+        margin-top: -230px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     #button{
-    margin-left: 5px;
+        margin-left: 5px;
 }
+    #card-margin3 {
+        margin-bottom: 30px
+    }
+    #boost {
+        position: relative;
+        top: 150px;
+        text-align: center;
+        color: white;
+    }
+     #working {
+        margin-left: 39%;
+        margin-top: -300px;
+    }
+   
+  
 }
 
-@media (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
     #button{
     margin-left: 0px;;
     }
+    #card-margin3 {
+        margin-bottom: 30px;
+    }
+    #boost {
+        position: relative;
+        top: 150px;
+        text-align: center;
+        color: white;
+    }
+     #working {
+        margin-left:20px;
+     
+    }
+     table {
+        border: 2px solid red;
+        font-size: 12px;
+        margin-left: -20px;
+    }
 } 
+
+@media (max-width: 575px) {
+     #button{
+    margin-left: 0px;;
+    }
+    #card-margin3 {
+        margin-bottom: 30px;
+    }
+    #boost {
+        position: relative;
+        top: 130px;
+        text-align: center;
+        color: white;
+    }
+     #working {
+        margin-left:20px;
+    }
+    .align-note {
+        text-align: center;
+    }
+    table {
+        border: 2px solid red;
+        font-size: 10px;
+        margin-left: -20px;
+    }
+}
     
 .cyan {
     background-color: hsl(180, 66%, 49%);
+     border-radius: 500px !important;
 }
+
 
 .cyan:hover {
     background-color: hsl(180, 83%, 57%);
@@ -87,9 +176,10 @@ svg[width="1000"] {
 .bg-primary {
      background-color: hsl(180, 66%, 49%);
 }
-#card-margin {
-    margin-top: 48px;
-}
+
+
+ 
+  
 
 .margin-top {
     margin-top: 40px;
@@ -106,9 +196,13 @@ svg[width="1000"] {
     z-index: 2;
 }
 
-#fully-customizable {
+/* #fully-customizable {
      position: relative;
      top: 90px;
+} */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #third-row-background{
@@ -126,35 +220,9 @@ svg[width="1000"] {
     padding: 50px 0;
     font-size: 14px;
  }
-/*
-@media(min-width: 768px)  {
-    #boost {
-        position: absolute;
-        top: 115em
-    }
-} */
 
 
-    /* text-align: center;
-    position: relative;
-    top: 90px;
-    left: 250px;
-    color: red;
-     border: 2px solid red; */
- 
 
-
-/* 
-#boost1 {
-    color: red;
-    /* position: relative;
-    top: 137px; */
-    margin-left: 550px;
-    /* left: 43px; */
-    /* border: 2px solid red; */
-    /* text-align: center;
-    display: inline-block; */
-}   */
 
 div span {
     padding: 6px;
@@ -182,12 +250,6 @@ div span {
 }
 }
 
-@media (max-width: 767px) {
-    .short-link {
-    
-    float: left;
-}
-}*/
 
 
 
