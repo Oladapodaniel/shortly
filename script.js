@@ -134,7 +134,7 @@ $(document).ready(function() {
             td3.textContent = `https://${userInput.value}`;
             td2.textContent = `https://rel.ink/${data.hashid}`;
             td2.value = `https://rel.ink/${data.hashid}`;
-            td1.innerHTML = `<a href="#" id="copy" data-toggle="tooltip" data-html="true" data-clipboard-text="https://rel.ink/${data.hashid}" title="Copy to Clipboard" data-placement="bottom" class="btn cyan text-white">Copy</a>`;
+            td1.innerHTML = `<div id="copy" data-toggle="tooltip" data-html="true" data-clipboard-text="https://rel.ink/${data.hashid}" title="Copy to Clipboard" data-placement="bottom" class="btn cyan text-white">Copy</div>`;
             
 
 
