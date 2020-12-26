@@ -49,7 +49,7 @@ $(document).ready(function() {
    
     //Api call url
 
-    let url = 'https://rel.ink/api/links/';
+    let url = 'https://cors-anywhere.herokuapp.com/https://rel.ink/api/links/';
 
             let table = document.createElement('table');
             let thead = document.createElement('thead');
@@ -89,8 +89,8 @@ $(document).ready(function() {
        
         $.post(url, data, function (data, status) {
            
-            console.log(`${data} and status is ${status}`)
-            console.log(data)
+            // console.log(`${data} and status is ${status}`)
+            console.log(status)
 
             
 
@@ -134,7 +134,7 @@ $(document).ready(function() {
             td3.textContent = `https://${userInput.value}`;
             td2.textContent = `https://rel.ink/${data.hashid}`;
             td2.value = `https://rel.ink/${data.hashid}`;
-            td1.innerHTML = `<div id="copy" data-toggle="tooltip" data-html="true" data-clipboard-text="https://rel.ink/${data.hashid}" title="Copy to Clipboard" data-placement="bottom" class="btn cyan text-white">Copy</div>`;
+            td1.innerHTML = `<div id="copy" data-toggle="tooltip" data-html="true" data-clipboard-text="https://www.rel.ink/${data.hashid}" title="Copy to Clipboard" data-placement="bottom" class="btn cyan text-white">Copy</div>`;
             
 
 
